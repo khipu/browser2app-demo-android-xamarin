@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+	<!--<attr path="/api/package[@name='com.sjl.dsl4xml.sax']/interface/method[@name='characters']" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='com.sjl.dsl4xml.sax']/class/method[@name='characters']" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='com.sjl.dsl4xml.sax']/class[@name='TagHandler']/method[@name='moveUp']" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='com.sjl.dsl4xml.sax']/class[@name='DocHandler']/method[@name='moveUp']" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='com.sjl.dsl4xml.sax']/class[@name='IgnoreHandler']/method[@name='moveUp']" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='com.sjl.dsl4xml.sax']/interface[@name='Handler']/method[@name='moveUp']" name="managedReturn">Java.Lang.Object</attr>
+	-->
+
+	<remove-node path="/api/package[@name='com.sjl.dsl4xml.sax']/class[@name='TagHandler']"/>
+    
+</metadata>
