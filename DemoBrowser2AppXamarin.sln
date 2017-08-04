@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding-converter-gson", "B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding-converter-scalars", "Binding-converter-scalars\Binding-converter-scalars.csproj", "{372E0581-0905-4E61-9FF8-02B522AF1668}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding-okhttp-urlconnection", "Binding-okhttp-urlconnection\Binding-okhttp-urlconnection.csproj", "{0DC18E8D-D137-4F92-A811-2E460B2EC069}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding-dsl4xml", "Binding-dsl4xml\Binding-dsl4xml.csproj", "{1702AFD0-EC4C-429B-9281-A05A8C8D44EA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding-easypermissions", "Binding-easypermissions\Binding-easypermissions.csproj", "{3FA73F11-3568-4E7F-9AEE-7A72197C6953}"
@@ -20,6 +18,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Building-vault", "Building-vault\Building-vault.csproj", "{ABCD44AF-44F3-4875-A498-A671CB70E7F5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding-khenshin", "Binding-khenshin\Binding-khenshin.csproj", "{DE132B45-819E-40F2-9E60-FB6D52A9893F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding-picasso2-okhttp3-downloader", "Binding-picasso2-okhttp3-downloader\Binding-picasso2-okhttp3-downloader.csproj", "{915683A5-EB88-4DDC-8416-BA9AC23B3D9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding-retrofit2", "Binding-retrofit2\Binding-retrofit2.csproj", "{68F9B79D-3EB4-487E-8818-6E45890BAB4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding-okhttp3", "Binding-okhttp3\Binding-okhttp3.csproj", "{35333E68-FDAF-422D-B112-1EE7513522A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding-picasso", "Binding-picasso\Binding-picasso.csproj", "{19033C5A-5B73-4E59-A94C-A114A4360C34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding-okhttp3-urlconnection", "Binding-okhttp3-urlconnection\Binding-okhttp3-urlconnection.csproj", "{430E9943-110D-4DE6-87BF-A5E6C183A9BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,10 +47,6 @@ Global
 		{372E0581-0905-4E61-9FF8-02B522AF1668}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{372E0581-0905-4E61-9FF8-02B522AF1668}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{372E0581-0905-4E61-9FF8-02B522AF1668}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0DC18E8D-D137-4F92-A811-2E460B2EC069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0DC18E8D-D137-4F92-A811-2E460B2EC069}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0DC18E8D-D137-4F92-A811-2E460B2EC069}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0DC18E8D-D137-4F92-A811-2E460B2EC069}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1702AFD0-EC4C-429B-9281-A05A8C8D44EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1702AFD0-EC4C-429B-9281-A05A8C8D44EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1702AFD0-EC4C-429B-9281-A05A8C8D44EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -67,5 +71,25 @@ Global
 		{DE132B45-819E-40F2-9E60-FB6D52A9893F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE132B45-819E-40F2-9E60-FB6D52A9893F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE132B45-819E-40F2-9E60-FB6D52A9893F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{915683A5-EB88-4DDC-8416-BA9AC23B3D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{915683A5-EB88-4DDC-8416-BA9AC23B3D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{915683A5-EB88-4DDC-8416-BA9AC23B3D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{915683A5-EB88-4DDC-8416-BA9AC23B3D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F9B79D-3EB4-487E-8818-6E45890BAB4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F9B79D-3EB4-487E-8818-6E45890BAB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F9B79D-3EB4-487E-8818-6E45890BAB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F9B79D-3EB4-487E-8818-6E45890BAB4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35333E68-FDAF-422D-B112-1EE7513522A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35333E68-FDAF-422D-B112-1EE7513522A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35333E68-FDAF-422D-B112-1EE7513522A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35333E68-FDAF-422D-B112-1EE7513522A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19033C5A-5B73-4E59-A94C-A114A4360C34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19033C5A-5B73-4E59-A94C-A114A4360C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19033C5A-5B73-4E59-A94C-A114A4360C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19033C5A-5B73-4E59-A94C-A114A4360C34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{430E9943-110D-4DE6-87BF-A5E6C183A9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{430E9943-110D-4DE6-87BF-A5E6C183A9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{430E9943-110D-4DE6-87BF-A5E6C183A9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{430E9943-110D-4DE6-87BF-A5E6C183A9BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

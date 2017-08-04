@@ -43,6 +43,7 @@ namespace DemoBrowser2AppXamarin
 
                 paymentIntent.PutExtra(KhenshinConstants.ExtraAutomatonParameters, bundle);
 
+
                 StartActivityForResult(paymentIntent, 101);
 
             

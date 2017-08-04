@@ -116,23 +116,26 @@
     <Reference Include="GoogleGson">
       <HintPath>..\packages\GoogleGson.2.8.1\lib\MonoAndroid\GoogleGson.dll</HintPath>
     </Reference>
-    <Reference Include="Square.OkIO">
-      <HintPath>..\packages\Square.OkIO.1.13.0\lib\MonoAndroid\Square.OkIO.dll</HintPath>
+    <Reference Include="MobileFirst.Android.JSONStore">
+      <HintPath>..\Components\ibm-worklight-8.0.2017040506\lib\android\MobileFirst.Android.JSONStore.dll</HintPath>
     </Reference>
-    <Reference Include="Square.OkHttp3">
-      <HintPath>..\packages\Square.OkHttp3.3.8.0\lib\MonoAndroid\Square.OkHttp3.dll</HintPath>
+    <Reference Include="MobileFirst.Android.Push">
+      <HintPath>..\Components\ibm-worklight-8.0.2017040506\lib\android\MobileFirst.Android.Push.dll</HintPath>
     </Reference>
-    <Reference Include="Square.Retrofit2">
-      <HintPath>..\packages\Square.Retrofit2.2.3.0\lib\MonoAndroid\Square.Retrofit2.dll</HintPath>
+    <Reference Include="MobileFirst.Xamarin.Android">
+      <HintPath>..\Components\ibm-worklight-8.0.2017040506\lib\android\MobileFirst.Xamarin.Android.dll</HintPath>
     </Reference>
-    <Reference Include="Square.OkHttp">
-      <HintPath>..\packages\Square.OkHttp.2.4.0.0\lib\MonoAndroid\Square.OkHttp.dll</HintPath>
+    <Reference Include="Worklight.Android">
+      <HintPath>..\Components\ibm-worklight-8.0.2017040506\lib\android\Worklight.Android.dll</HintPath>
     </Reference>
-    <Reference Include="Square.Picasso">
-      <HintPath>..\packages\Square.Picasso.2.5.2.1\lib\MonoAndroid\Square.Picasso.dll</HintPath>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="JakeWharton.Picasso2OkHttp3Downloader">
-      <HintPath>..\packages\JakeWharton.Picasso2OkHttp3Downloader.1.1.0\lib\MonoAndroid\JakeWharton.Picasso2OkHttp3Downloader.dll</HintPath>
+    <Reference Include="Worklight.Core">
+      <HintPath>..\Components\ibm-worklight-8.0.2017040506\lib\mobile\Worklight.Core.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -168,10 +171,6 @@
       <Project>{372E0581-0905-4E61-9FF8-02B522AF1668}</Project>
       <Name>Binding-converter-scalars</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Binding-okhttp-urlconnection\Binding-okhttp-urlconnection.csproj">
-      <Project>{0DC18E8D-D137-4F92-A811-2E460B2EC069}</Project>
-      <Name>Binding-okhttp-urlconnection</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Binding-dsl4xml\Binding-dsl4xml.csproj">
       <Project>{1702AFD0-EC4C-429B-9281-A05A8C8D44EA}</Project>
       <Name>Binding-dsl4xml</Name>
@@ -196,6 +195,32 @@
       <Project>{DE132B45-819E-40F2-9E60-FB6D52A9893F}</Project>
       <Name>Binding-khenshin</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Binding-picasso2-okhttp3-downloader\Binding-picasso2-okhttp3-downloader.csproj">
+      <Project>{915683A5-EB88-4DDC-8416-BA9AC23B3D9E}</Project>
+      <Name>Binding-picasso2-okhttp3-downloader</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Binding-retrofit2\Binding-retrofit2.csproj">
+      <Project>{68F9B79D-3EB4-487E-8818-6E45890BAB4C}</Project>
+      <Name>Binding-retrofit2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Binding-okhttp3\Binding-okhttp3.csproj">
+      <Project>{35333E68-FDAF-422D-B112-1EE7513522A8}</Project>
+      <Name>Binding-okhttp3</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Binding-picasso\Binding-picasso.csproj">
+      <Project>{19033C5A-5B73-4E59-A94C-A114A4360C34}</Project>
+      <Name>Binding-picasso</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Binding-okhttp3-urlconnection\Binding-okhttp3-urlconnection.csproj">
+      <Project>{430E9943-110D-4DE6-87BF-A5E6C183A9BC}</Project>
+      <Name>Binding-okhttp3-urlconnection</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="ibm-worklight">
+      <Version>8.0.2017040506</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.GooglePlayServices.Basement.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Basement.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Basement.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Basement.targets')" />

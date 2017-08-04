@@ -35,10 +35,13 @@ namespace DemoBrowser2AppXamarin
 						.SetApplication(this)
 						.SetTaskAPIUrl("https://cmr.browser2app.com/api/automata/")
 						.SetDumpAPIUrl("https://cmr.browser2app.com/api/automata/")
+						//.SetTaskAPIUrl("https://khipu.com/app/2.0/")
+						//.SetDumpAPIUrl("https://khipu.com/cerebro/")
 						.SetMainButtonStyle(1)
 						.SetAutomatonTimeout(90)
 						.SetAllowCredentialsSaving(true)
 						.SetHideWebAddressInformationInForm(false)
+                        .SetSkipExitPage(false)
 						.Build();
 		}
 
